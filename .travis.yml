@@ -3,7 +3,7 @@ android:
   components:
     - tools
     - android-23
-    - build-tools-23.0.2
+    - build-tools-23.0.3
     - extra-google-m2repository
     - extra-android-m2repository
 
@@ -11,7 +11,7 @@ android:
     - android-sdk-license-.+
 
 before_install:
-  - echo yes | android update sdk --all --filter build-tools-23.0.2 --no-ui --force
+  - echo yes | android update sdk --all --filter build-tools-23.0.3 --no-ui --force
 
 script:
     - echo "Travis branch is $TRAVIS_BRANCH"
