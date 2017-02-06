@@ -13,8 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d(TAG, "onCreate: ");
+        Log.d(TAG, "onCreate: "+" Hello Hungry Hedgehogs");
         //Change test
         //Commit test
+
     }
 }
